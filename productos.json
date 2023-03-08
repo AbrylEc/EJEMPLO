@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "imagen": "https://sistemasyprogramas.com/9117-large_default/audifono-microfono-logitech-alambrico-gamer-g-pro-x.jpg",
+      "nombre": "Audifonos",
+      "marca": "Logitech",
+      "preferencia": "mouse logitech",
+      "estado": "8",
+      "descripcion": "Audifonos logitech G pro X, un año de uso, entrego con su respectiva caja.",
+      "contacto": "123456",
+      "ciudad": "Ibarra"
+    },
+    {
+      "id": "2",
+      "imagen": "https://fs-prod-cdn.nintendo-europe.com/media/images/08_content_images/systems_5/nintendo_switch_3/nintendo_switch_oled/CI_NSwitch_product_switch_neon.jpg",
+      "nombre": "Nintendo Switch",
+      "marca": "Nintendo",
+      "preferencia": "Laptop del mismo valor",
+      "estado": "10",
+      "descripcion": "Un mes de uso, como nuevo, entrego con Mario Kart 8 deluxe.",
+      "contacto": "234567",
+      "ciudad": "Quito"
+    },
+    {
+      "id": "3",
+      "imagen": "https://www.cnet.com/a/img/resize/69acb85352bf61334fd0ca729ead50efd3f7bee6/hub/2013/11/11/ed201021-6797-11e3-846b-14feb5ca9861/Sony_PS4_35618167_02.jpg?auto=webp&fit=crop&height=900&width=1200",
+      "nombre": "PS4",
+      "marca": "Sony",
+      "preferencia": "Laptop del mismo valor",
+      "estado": "9",
+      "descripcion": "PS4 de 500gb pro, ocho meses de usu, tiene Good of war y Fifa 23 descargado.",
+      "contacto": "345678",
+      "ciudad": "Quito"
+    },
+    {
+      "id": "4",
+      "imagen": "https://topesdegama.com/app/uploads-topesdegama.com/2019/11/Xbox-One-S-1-1.jpg",
+      "nombre": "Xbox One",
+      "marca": "Microsoft",
+      "preferencia": "PS4",
+      "estado": "8",
+      "descripcion": "Xbox One 1TB, 1 año de uso, trae 3 juegos digitales, todos sus cables y una palanca.",
+      "contacto": "456789",
+      "ciudad": "Ibarra"
+    },
+    {
+      "id": "6",
+      "imagen": "https://i.linio.com/p/2f919d0e4415bf45dbc312ed9c6d433e-product.jpg",
+      "nombre": "Mouse",
+      "marca": "Corsair",
+      "preferencia": "Audifonos inalambricos",
+      "estado": "8",
+      "descripcion": "Mouse corsair DARK CORE RGB WIRELESS, cinco meses de uso, buen estado.",
+      "contacto": "876543",
+      "ciudad": "Quito"
+    },
+    {
+      "id": "7",
+      "imagen": "https://sonikaecuador.com/28240-large_default/microfono-shure-mv7x.jpg",
+      "nombre": "Microfono",
+      "marca": "Shure",
+      "preferencia": "Laptop del mismo valor",
+      "estado": "9",
+      "descripcion": "Microfono Shure SM7B, cuatro meses de uso, se conecta por usb.",
+      "contacto": "765432",
+      "ciudad": "Guayaquil"
+    },
+    {
+      "id": "8",
+      "imagen": "https://i0.wp.com/nomadaware.com.ec/wp-content/uploads/2020/10/NomadaWare_monitor_asus_vp228he.jpg",
+      "nombre": "Monitor",
+      "marca": "Asus",
+      "preferencia": "Iphone 10",
+      "estado": "9",
+      "descripcion": "Monitor Asus de 24 pulgadas, 240gh y 1ms de respuesta, como nuevo.",
+      "contacto": "654321",
+      "ciudad": "Quito"
+    },
+    {
+      "id": "9",
+      "imagen": "https://s1.eestatic.com/2022/08/24/actualidad/697940615_226643954_1024x576.jpg",
+      "nombre": "Palanca PS5",
+      "marca": "Sony",
+      "preferencia": "Audifonos inalambricos",
+      "estado": "10",
+      "descripcion": "Palanca de PS5 para PC o PS5, como nueva 2 semanas de uso.",
+      "contacto": "135790",
+      "ciudad": "Cuenca"
+    },
+    {
+      "id": "10",
+      "imagen": "https://shopea.com/6030-large_default/teclado-logitech-inalambrico-gamer-g915.jpg",
+      "nombre": "Teclado",
+      "marca": "Logitech",
+      "preferencia": "Iphone 10 o superior",
+      "estado": "8",
+      "descripcion": "Teclado logitech G pro X, tres meses de uso, todos las teclas y su iluminacion funcionan correctamente.",
+      "contacto": "864210",
+      "ciudad": "Quito"
+    },
+    {
+      "id": "12",
+      "imagen": "https://www.zdnet.com/a/img/2020/11/22/ca2302cc-c59f-4ae2-9091-6340e4f120e3/iphone-12-mini1.jpg",
+      "nombre": "Iphone 12",
+      "marca": "Apple",
+      "preferencia_de_cambio": "Samsung s20",
+      "estado": "9",
+      "descripcion": "Iphone 12 pro 256gb",
+      "contacto": "45651781",
+      "ciudad": "Ambato"
+    }
+  ]
+}

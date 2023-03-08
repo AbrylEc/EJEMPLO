@@ -20,45 +20,56 @@ export class ProductosComponent {
 
   // INGRESO / CREACIÓN DE PRODUCTOS
 
-  ingresarProductos(nom: String, genero: string, mail: String) {
+  ingresarProductos(idI: any, imgI: any, nameI: any, marcaI: any, preferenciaI: any, estadoI: any,
+    descripI: any, contactI: any, ciudadI: any) {
+    if (idI == "" || imgI == "") {
+      alert("No se puede ingresar un producto con campos vacíos")
+    } else {
+      const productos =
+      {
+        id: idI,
+        imagen: imgI,
+        nombre: nameI,
+        marca: marcaI,
+        preferencia_de_cambio: preferenciaI,
+        estado: estadoI,
+        descripcion: descripI,
+        contacto: contactI,
+        ciudad: ciudadI
+      }
 
-    const productos =
-    {
-      name: nom,
-      gender: genero,
-      email: mail
-
+      this.servicio.addProductos(productos).subscribe(p => { })
+      alert("Producto agregado!!!")
+      window.location.reload()
     }
-
-    this.servicio.postProductos(productos).subscribe(p => {
-
-    })
   }
 
   // ACTUALIZACIÓN DE PRODUCTOS
 
-  actualizacionProductos(ide: String, nom: String, mail: String) {
+  actualizacionProductos(idP: any, img: any, name: any, marca: any, preferencia: any, estado: any,
+    descrip: any, contact: any, ciudad: any) {
 
     const productos =
     {
-      id: ide,
-      name: nom,
-      email: mail
+      id: idP,
+      imagen: img,
+      nombre: name,
+      marca: marca,
+      preferencia_de_cambio: preferencia,
+      estado: estado,
+      descripcion: descrip,
+      contacto: contact,
+      ciudad: ciudad
     }
 
-    this.servicio.putProductos(productos, ide).subscribe(p => {
-
-    })
+    this.servicio.updateProductos(productos).subscribe(p => { })
   }
 
   // ELIMINAR PRODUCTOS
 
-  eliminarProductos(id: any) {
-
-    const productos =
-
-      this.servicio.deleteProductos(id).subscribe(p => {
-
-      })
+  remove(id: any) {
+    this.servicio.deleteProductos(id).subscribe(p => { })
+    alert("Producto Eliminado")
+    window.location.reload()
   }
 }
